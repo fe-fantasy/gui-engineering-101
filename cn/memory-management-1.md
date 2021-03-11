@@ -437,7 +437,7 @@ int main() {
 int main () {
   char a[] = "hello"; // 分配在栈上
   char* b = malloc(10); // 分配在堆上
-  char* c = "world"; // 指针 b 在栈上，"world" 在常量区
+  char* c = "world"; // 指针 c 在栈上，"world" 在常量区
 }
 ```
 
